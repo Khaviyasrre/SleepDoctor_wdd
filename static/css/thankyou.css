@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0; /* Added to remove space at the beginning */
+  background-color: #000000; /* Background color for the entire page */
+ 
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for container */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fff; /* White text color */
+  text-align: center;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #fff; /* White text color */
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+#quiz-result {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    margin: 20px auto;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+.animal-image {
+  max-width: 100%;
+  height: auto;
+  /* Add additional styling as needed */
+}
+ 
+
+.btn.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn.btn-primary:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+.btn.btn-primary:active {
+  background-color: #004eab; /* Slightly darker color when clicked */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+/* Thank you page specific styles */
+#quiz-result {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  color: #fff; /* Set text color to white */
+}
+
+/* Style for 'About the Owl' and 'Suggested Daily Schedule for an Owl' */
+#quiz-result h2 {
+  color: #fff; /* Set heading text color to white */
+}
+
